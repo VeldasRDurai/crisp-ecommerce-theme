@@ -39,25 +39,19 @@ div#content #content-form{
 div#content 
 #content-form 
 .sections{
-    margin-top: 5vh;
+    margin-top: 7vh;
     width: 60vw;
     display: flex;
     justify-content: space-around;
-}
-
-div#content 
-#content-form 
-.sections
-.section{
-    width: 15vw;
+    /* border: 1px solid black; */
 }
 
 div#content 
 #content-form 
 .sections
 #options{
-    /* display: flex;
-    flex-direction: column; */
+    width: 15vw;
+    /* border: 1px solid black; */
 }
 div#content 
 #content-form 
@@ -67,13 +61,21 @@ div#content
     height: 30px;
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 20px;
     font-family: 'Oswald';
-    font-weight: 400;
+    font-weight: 500;
     font-size: 13px;
     color: #828282;
+    cursor: pointer;
 }
 
+div#content 
+#content-form 
+.sections
+#options
+.option:hover{
+    background-color: #F0F2F2;
+}
 div#content 
 #content-form 
 .sections
@@ -81,4 +83,102 @@ div#content
 .selected{
     color: black;
     background-color: #F0F2F2;
+}
+
+
+div#content 
+#content-form 
+.sections
+#information{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+div#content 
+#content-form 
+.sections
+#information
+.info-section{
+    margin-bottom: 20px;
+}
+div#content 
+#content-form 
+.sections
+#information
+.info-main-head{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+div#content 
+#content-form 
+.sections
+#information
+.info-main-content{
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+}
+
+div#content 
+#content-form 
+.sections
+#information
+.info-main-content
+.info-sub-section{
+    width: 15vw;
+}
+div#content 
+#content-form 
+.sections
+#information
+.info-main-content
+.info-sub-section
+.info-sub-head{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 15px;
+    color: #3F3F3F;
+    margin-bottom: 10px;
+}
+div#content 
+#content-form 
+.sections
+#information
+.info-main-content
+.info-sub-section
+.info-sub-data{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+    margin-bottom: 5px;
+}
+div#content 
+#content-form 
+.sections
+#information
+.info-main-content
+.info-sub-section
+.info-sub-badges{
+    display: flex;
+}
+div#content 
+#content-form 
+.sections
+#information
+.info-main-content
+.info-sub-section
+.info-sub-badges
+.info-sub-badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6F1FA;
+    font-family: 'Roboto';
+    font-size: 11px;
+    padding: 2px 5px;
+    font-weight: 600;
+    margin-right: 5px;
 }

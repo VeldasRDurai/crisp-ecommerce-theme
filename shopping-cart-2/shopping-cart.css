@@ -497,6 +497,14 @@ div#content
 #sections
 #bill
 #discount
+#hidden{
+    display: none;
+}
+div#content 
+#content-form 
+#sections
+#bill
+#discount
 #hidden
 .section-input{
     display: flex;
